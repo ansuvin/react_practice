@@ -1,0 +1,12 @@
+.App {
+    width: 521px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border: 1px solid black;
+    padding: 1rem;
+
+    .buttons + .buttons {
+        //className buttons가 붙어있으면 실행
+        margin-top: 1rem;
+    }
+}
